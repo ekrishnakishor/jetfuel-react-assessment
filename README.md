@@ -1,49 +1,68 @@
-# JetFuel Take Home Exercise
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a frontend exercise that will give you the chance to see what kind of things we build at JetFuel!
+## Available Scripts
 
-You will be building a simplified version of our main app, the Plug (www.plugco.in). This is the app through which our influencer access our offers, track their earnings, and manage their account. In particular, you will be recreating our main 'offer' feed:
+In the project directory, you can run:
 
-We've spun up an endpoint on our server to return a sample feed of offers as a JSON blob. You can access that here:
-https://www.plugco.in/public/take_home_sample_feed
+### `npm start`
 
-Your job is set up a react project that calls the sample endpoint and renders feed based on the JSON data returned. 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can find the design and an explanation of each component in this Figma file:
-https://www.figma.com/file/1exs9yHG251QWdUy2YztUg/takehome_template_ios_01?node-id=0%3A1
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-If you prefer Sketch, I've also included the same design in a sketch file, in this repository: 'feed_template_react_01.sketch'.
+### `npm test`
 
-![starter-screenshot](https://i.imgur.com/ynkHNTC.png)
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Note - We're only providing mobile designs. For the sake of this exercise, there's no need to build this for desktop!
+### `npm run build`
 
-We have a starter app provided in the `./app` directory, please complete your project here.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-We're giving you 3 hours to make as much progress on this project as possible. While we recognize it will be difficult to finish everything, part of the goal is to see how you prioritize, and how much you're able to get through.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Getting started
+### `npm run eject`
 
-Run the following commands:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-```
-cd app
-npm start
-```
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-After that, your browser should open up a skeleton React app. You can edit any file in `./src/` and in _most_ cases the website will hot-reload.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-For more info, you can check out https://github.com/facebook/create-react-app
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Bonus
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Can you handle failed API requests gracefully? Maybe redirect to a 'failed' UI state with a rety option? 
-- Can you get the videos to play inline when the 'play' icon is tapped?
-- What steps can you take to optimize the load time of cover photos? How about the scroll performance? 
-- Can you add pull-to-refresh? 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Questions?
+### Code Splitting
 
-Feel free to reach out if you have any questions!
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
